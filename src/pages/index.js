@@ -7,6 +7,7 @@ import { HomeHeader, Banner, BannerButton } from "../utils"
 import img from "../images/bcg/home.jpg"
 import QuickInfo from "../components/HomePageComponents/Quickinfo"
 import Gallary from "../components/HomePageComponents/Gallery-1"
+import Menu from "../components/HomePageComponents/Menu"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
@@ -17,6 +18,7 @@ const IndexPage = () => (
     </HomeHeader>
     <QuickInfo />
     <Gallary />
+    <Menu />
   </Layout>
 )
 
